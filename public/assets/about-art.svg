@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Human touch abstract composition</title>
+  <desc id="desc">An abstract warm and cool composition with organic shapes.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#d6d8cb"/><stop offset=".45" stop-color="#8fa6ad"/><stop offset="1" stop-color="#202d42"/></linearGradient>
+    <linearGradient id="shape" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f06a42"/><stop offset=".5" stop-color="#d7ff62"/><stop offset="1" stop-color="#3e6fff"/></linearGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="8"/></filter>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <g opacity=".25" stroke="#111519"><path d="M0 120H800M0 240H800M0 360H800M0 480H800M0 600H800M0 720H800M0 840H800"/><path d="M100 0V1000M220 0V1000M340 0V1000M460 0V1000M580 0V1000M700 0V1000"/></g>
+  <ellipse cx="420" cy="480" rx="185" ry="360" fill="url(#shape)" opacity=".75" filter="url(#soft)" transform="rotate(26 420 480)"/>
+  <path d="M-40 850 C120 650 160 230 430 310 C650 375 610 710 860 570" fill="none" stroke="#111519" stroke-width="3" opacity=".7"/>
+  <path d="M-60 900 C120 700 180 300 450 360 C650 410 590 760 860 630" fill="none" stroke="#ece9e1" stroke-width="2" opacity=".8"/>
+  <circle cx="420" cy="475" r="66" fill="#111519" opacity=".78"/><circle cx="420" cy="475" r="33" fill="#d7ff62"/>
+  <rect x="30" y="30" width="740" height="940" fill="none" stroke="#ece9e1" stroke-opacity=".5"/>
+</svg>
